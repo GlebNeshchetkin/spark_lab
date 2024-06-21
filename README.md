@@ -19,6 +19,7 @@ labels.pkl file contains labels dictionary for data preprocessing.
 <h4>Load Data to HDFS</h4>
 
 ```sh
+    docker-compose build
     docker-compose up -d
     docker cp car_prices_3.csv namenode:/
     docker exec -it namenode /bin/bash
