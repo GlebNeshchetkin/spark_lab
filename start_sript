@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Fetch Docker logs for spark-master and store them in a variable
+LOGS=$(docker logs spark-master 2>&1)
+
+# Use grep to extract the IP address
+IP=$(echo "$LOGS" | grep -oP 'Starting Spark master at spark://\K[0-9.]+')
+
+# Print the extracted IP address
+echo "Extracted IP Address: $IP"
