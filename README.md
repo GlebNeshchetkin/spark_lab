@@ -4,7 +4,7 @@
 ![download](https://github.com/GlebNeshchetkin/spark_lab/assets/71218745/8f498e16-672a-4e0f-a3b7-2191587f1f5d)
 
 <h3>Dataset</h3>
-Car prices dataset is in data folder (car_prices_3.csv): year, make, model, trim, body, transmission, state, condition, odometer, color, interior, seller, mmr, sellingprice columns.
+Car prices dataset is in data folder (car_prices_3.csv): year, make, model, trim, body, transmission, state, condition, odometer, color, interior, seller, mmr, sellingprice columns, 110000 rows.
 
 <h3>Model</h3>
 The model folder contains the pretrained CatBoost regression model file. Model training is in the Jupyter Notebook file in model_training folder.
